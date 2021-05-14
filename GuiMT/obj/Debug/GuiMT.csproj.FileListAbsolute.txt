@@ -1,0 +1,12 @@
+D:\Dev\MQL5_CSharp\GuiMT\obj\Debug\GuiMT.Form1.resources
+D:\Dev\MQL5_CSharp\GuiMT\obj\Debug\GuiMT.Properties.Resources.resources
+D:\Dev\MQL5_CSharp\GuiMT\obj\Debug\GuiMT.csproj.GenerateResource.cache
+D:\Dev\MQL5_CSharp\GuiMT\obj\Debug\GuiMT.csproj.CoreCompileInputs.cache
+D:\Dev\MQL5_CSharp\GuiMT\GuiMT.dll.config
+D:\Dev\MQL5_CSharp\GuiMT\obj\Debug\GuiMT.dll
+D:\Dev\MQL5_CSharp\GuiMT\obj\Debug\GuiMT.pdb
+D:\Dev\MQL5_CSharp\GuiMT\GuiMT.dll
+D:\Dev\MQL5_CSharp\GuiMT\GuiMT.pdb
+D:\Dev\MQL5_CSharp\GuiMT\bin\GuiMT.dll.config
+D:\Dev\MQL5_CSharp\GuiMT\bin\GuiMT.dll
+D:\Dev\MQL5_CSharp\GuiMT\bin\GuiMT.pdb
