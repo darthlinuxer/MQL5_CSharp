@@ -7,3 +7,5 @@ Copy file CSharp.mq5 to MetaEditor Script Folder and Compile it, or copy CSharp.
 Open MT5 and run the script.  
 Press the refresh button to see the random data flowing from MT5 to the Graph in the Form
 
+[Check the Medium Article!](https://camilochaves.medium.com/simplest-connection-between-mql5-and-net-c-552c229aa12f)
+
