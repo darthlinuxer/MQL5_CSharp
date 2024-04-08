@@ -4,24 +4,40 @@ using System.Windows.Forms.DataVisualization.Charting;
 using System.Linq;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Runtime.InteropServices;
 
 namespace GuiMT
 {
     public partial class Form1 : Form
     {
-        public Form1() => InitializeComponent();
+        private EventHandler handler;
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        ~Form1()
+        {
+            timer1.Tick -= handler;
+            timer1.Dispose();
+        }
+
         private void buttonRefresh_Click(object sender, EventArgs e)
         {
             this.LoadValues();
             MQL5CSharp.msgBack = "DLL msg: Refresh Button clicked!";
             MQL5CSharp.lastEvent = DLLEvents.refreshButtonClicked;
         }
+
         private void buttonClose_Click(object sender, EventArgs e) => MQL5CSharp.lastEvent = DLLEvents.close;
+
         private void Form1_Load(object sender, EventArgs e)
         {
             this.chart1.Palette = ChartColorPalette.Excel;
             this.LoadValues();
         }
+
         public void LoadValues()
         {
             Series serie;
@@ -38,7 +54,24 @@ namespace GuiMT
             {
                 serie.Points.AddXY(i, item);
                 i++;
-            }            
-        }      
+            }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                handler = new EventHandler(buttonRefresh_Click);
+                this.timer1.Interval = (int)numericUpDownTimer.Value * 1000;
+                this.timer1.Tick += handler;
+                this.timer1.Enabled = true;
+                this.timer1.Start();
+                return;
+            }
+
+            this.timer1.Stop();
+            this.timer1.Tick -= handler;
+            this.timer1.Enabled = false;
+        }
     }
 }

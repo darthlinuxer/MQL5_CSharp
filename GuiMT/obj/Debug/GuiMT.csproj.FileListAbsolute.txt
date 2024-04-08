@@ -10,3 +10,13 @@ D:\Dev\MQL5_CSharp\GuiMT\GuiMT.pdb
 D:\Dev\MQL5_CSharp\GuiMT\bin\GuiMT.dll.config
 D:\Dev\MQL5_CSharp\GuiMT\bin\GuiMT.dll
 D:\Dev\MQL5_CSharp\GuiMT\bin\GuiMT.pdb
+C:\Users\chave\dev\MQL5_CSharp\GuiMT\bin\GuiMT.dll.config
+C:\Users\chave\dev\MQL5_CSharp\GuiMT\bin\GuiMT.dll
+C:\Users\chave\dev\MQL5_CSharp\GuiMT\bin\GuiMT.pdb
+C:\Users\chave\dev\MQL5_CSharp\GuiMT\obj\Debug\GuiMT.csproj.AssemblyReference.cache
+C:\Users\chave\dev\MQL5_CSharp\GuiMT\obj\Debug\GuiMT.Form1.resources
+C:\Users\chave\dev\MQL5_CSharp\GuiMT\obj\Debug\GuiMT.Properties.Resources.resources
+C:\Users\chave\dev\MQL5_CSharp\GuiMT\obj\Debug\GuiMT.csproj.GenerateResource.cache
+C:\Users\chave\dev\MQL5_CSharp\GuiMT\obj\Debug\GuiMT.csproj.CoreCompileInputs.cache
+C:\Users\chave\dev\MQL5_CSharp\GuiMT\obj\Debug\GuiMT.dll
+C:\Users\chave\dev\MQL5_CSharp\GuiMT\obj\Debug\GuiMT.pdb

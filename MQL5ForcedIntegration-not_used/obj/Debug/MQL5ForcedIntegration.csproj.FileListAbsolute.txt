@@ -1,8 +1,0 @@
-D:\Dev\MQL5_CSharp\MQL5ForcedIntegration\obj\Debug\MQL5ForcedIntegration.csproj.CoreCompileInputs.cache
-D:\Dev\MQL5_CSharp\MQL5ForcedIntegration\obj\Debug\MQL5ForcedIntegration.csproj.CopyComplete
-D:\Dev\MQL5_CSharp\MQL5ForcedIntegration\obj\Debug\MQL5ForcedIntegration.dll
-D:\Dev\MQL5_CSharp\MQL5ForcedIntegration\obj\Debug\MQL5ForcedIntegration.pdb
-D:\Dev\MQL5_CSharp\MQL5ForcedIntegration\MQL5ForcedIntegration.dll
-D:\Dev\MQL5_CSharp\MQL5ForcedIntegration\MQL5ForcedIntegration.pdb
-D:\Dev\MQL5_CSharp\MQL5ForcedIntegration\System.ValueTuple.dll
-D:\Dev\MQL5_CSharp\MQL5ForcedIntegration\System.ValueTuple.xml
